@@ -11,16 +11,37 @@
         <label> last name:
           <input type="text" name="last-name">
         </label>
-        <label> first name:
+        <!-- <label> first name:
           <input type="text" name="first-name">
         </label>
-        <label>Reason you like to adopt a cat:
+        <label>Reason you like to adopt a pet:
           <input type="text" name="reasons">
         </label>
-        <label>Cat 's reference/ type:
+        <label>Animal 's reference/ type:
           <input type="text" name="reference">
-        </label>
-        <input type="submit" value="Apply Now!">
+        </label> -->
+        <label>Type of animal to adopt:
+        <select name="animal">
+          <option value="turtle">Turtle</option>
+          <option value="python">Python</option>
+          <option value="dog">Dog</option>
+          <option value="hamster">hamster</option>
+          <option value="cat" selected>Cat</option>
+        </select>
+       </label>
+       <label>how much outdoor space will your pet have to play in?
+         <textarea name="outdoor" cols="100" rows="15"></textarea>
+       </label>
+       <br>
+       <fieldset>
+          <label for="">Yes
+              <input type="radio" name="other-pets" value="yes">
+             </label>
+             <label>No
+               <input type="radio" name="other-pets" value="no">
+             </label>
+               <input type="submit" value="Apply Now!">
+       </fieldset>
       </form>
     </body>
 </html>
